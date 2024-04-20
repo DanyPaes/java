@@ -8,12 +8,15 @@ public class Bagaceira{
         final int[] lista = {23,45,3,2,6};
         int[] luser = new int[lista.length];
 
-        for(int i = 0; i < luser.length; i++){
-            luser[i] = entrada.nextInt();
+        Arreys.sort(lista);
+
+        while(!Arreys.equals(lista, luser)){
+            for(int i = 0; i < luser.length; i++){
+                luser[i] = entrada.nextInt();
             
+            }
         }
         
-
         Arrays.sort(luser);
         for(int i = 0; i < luser.length; i++){
             System.out.printf("-----%d\n", luser[i]);

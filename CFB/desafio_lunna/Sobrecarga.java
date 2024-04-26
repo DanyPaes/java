@@ -28,6 +28,7 @@ public class Sobrecarga{
             frete = frete + (jj[i]*cesar[i]);
         }
         return frete;
+        
     }
 
     //Frete Expresso
@@ -62,6 +63,7 @@ public class Sobrecarga{
             taxasNece[i] = CESAR[i];
         }
         return taxasNece;
+
     }
 }
 //""yt

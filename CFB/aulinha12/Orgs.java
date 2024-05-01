@@ -28,14 +28,12 @@ public class Orgs {
     static String finalCamp(Orgs timeA, Orgs timeB){
         System.out.printf("\nSe enfrentam na final:\n%s X %s",timeA.nome, timeB.nome);
         timeA.trofeus++;
-        
-        System.out.println("\nO time " + timeA.nome + " venceu o campeonato e tem " + timeA.trofeus + " troféus atualmente");
-        String vencedor_split = "\nO time " + timeA.nome + " venceu o split " + split + " de " + ano +"\n---------------";
-
         if(split > 2){
             split = 1;
             ano+=1;
         }
+        System.out.println("\nO time " + timeA.nome + " venceu o campeonato e tem " + timeA.trofeus + " troféus atualmente");
+        String vencedor_split = "\nO time " + timeA.nome + " venceu o split " + split + " de " + ano +"\n---------------";
         split++;
         return vencedor_split;
         

@@ -1,19 +1,19 @@
 package desafio_lunna;
-import java.util.Scanner;
+import utils.Input;
 
 public class Sobrecarga{
     public static void main(String[] args) {
         
-        Scanner gp = new Scanner(System.in);
+        
         /*double frete = 0.0;
         final double taxaKM = 1.50;
         final double taxaKG = 1.00;
         final double taxaVOL = 2.00;*/
 
-        double peso = gp.nextInt();
-        double km = gp.nextInt();
-        double vol = gp.nextDouble();
-        int gringo = gp.nextInt();
+        double peso = Input.entradaFl("Digite o peso: ");
+        double km = Input.entradaFl("Digite a distância: ");
+        double vol = Input.entradaFl("Digite o volume: ");
+        int gringo = Input.entradaInt("Gringo ?: ");
 
         System.out.printf("%.2f", calcFrete(peso, km, vol, gringo));
     }

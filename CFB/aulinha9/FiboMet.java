@@ -1,19 +1,18 @@
 package aulinha9;
-import java.util.Scanner;
+import utils.Input;
 import java.util.Locale;
 
 public class FiboMet {
     public static void main(String[] args) {
-        Scanner bee = new Scanner(System.in);
         Locale.setDefault(Locale.ENGLISH);
         
-        int ncasos = bee.nextInt();
+        int ncasos = Input.entradaInt("Digite o numero de casos: ");
         int[] casos = new int[ncasos];
         long[] fibocasos = new long[ncasos];
         System.out.println("casos: " + ncasos);
 
         for(int i=0; i<ncasos; i++){
-            casos[i] = bee.nextInt();
+            casos[i] = Input.entradaInt("Digite o caso: ");
         }
 
         for(int i = 0; i < ncasos; i++){

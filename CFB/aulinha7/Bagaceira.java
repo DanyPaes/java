@@ -1,7 +1,7 @@
 package aulinha7;
 import java.util.Arrays;
 import utils.Input;
-//um programa que recebe uma lisa de numeros e informa se preencheu odos os numeros ou nao, e ordena eles
+//um programa que recebe uma lista de numeros e informa se preencheu todos os numeros ou nao, e ordena eles
 public class Bagaceira{
     public static void main(String[] args){
         final int[] lista = {23,45,3,2,6};

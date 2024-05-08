@@ -3,7 +3,6 @@ import java.lang.String;
 
 public class NoMai{
     
-    private int count = 0;
     private String[] nomes= {"Dora", "Ste"};
 
 

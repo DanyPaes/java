@@ -1,15 +1,18 @@
 package aulinha3e4;
-import java.util.Scanner;
+import utils.Input;
 
 public class TipoTriangulo {
+
+
     public static void main(String[] args){
-        Scanner entrada = new Scanner(System.in);
         double a=0, b=0, c=0;
         int casoL = 0, casoA = 0;
         Double temp;
 
-        System.out.println("Digite o valor dos lados: ");
-        String lerolero = entrada.nextLine();
+        String lerolero = Input.entradaStr("Digite o valor dos lados: ");
+        
+
+
         String[] separadas = lerolero.split(" ");
         a = Double.parseDouble(separadas[0]);
         b = Double.parseDouble(separadas[1]);

@@ -1,17 +1,16 @@
 package aulinha10e11;
-import java.util.Scanner;
+import utils.Input;
 
 public class Classe {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Informe o nome do clube");
 
-        String nome = scan.nextLine();
+        String nome = Input.entradaStr("Digite o nome do clube: ");
 
 
         NoMai iriri = new NoMai(false);
         NoMai clube = new NoMai(true);
 
         clube.Barulho(nome);
+        iriri.Barulho(nome);
     }
 }

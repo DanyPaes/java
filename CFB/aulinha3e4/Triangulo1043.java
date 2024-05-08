@@ -1,14 +1,14 @@
 package aulinha3e4;
-import java.util.Scanner;
 import java.util.Locale;
+import utils.Input; // importando a classe Input do pacote interno utils
 public class Triangulo1043{
+
+    
     public static void main(String[] args){
         Locale.setDefault(Locale.ENGLISH);
         float a, b, c;
-        Scanner entrada = new Scanner(System.in);
         
-        System.out.println("Informe os valores de a, b e c(separados por espaço): ");
-        String texto = entrada.nextLine();
+        String texto = Input.entradaStr("Informe os valores de a, b e c(separados por espaço): ");
         
         String[] valores = texto.split(" ");
         

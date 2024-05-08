@@ -4,7 +4,7 @@
 package aulinha6;
 import utils.Input;
 
-public class Veor{
+public class Vetor{
     public static void main(String[] args){
         final int tamanho = 10;
         int[] vetor = new int[tamanho];

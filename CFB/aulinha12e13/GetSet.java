@@ -1,4 +1,4 @@
-package aulinha12;
+package aulinha12e13;
 //parte da aula 12 está comentada pra ser mais visivel as coisas da 13
 public class GetSet{
     public static void main(String[] args) {

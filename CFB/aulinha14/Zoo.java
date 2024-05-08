@@ -41,9 +41,6 @@ public class Zoo {
     public int getTotalAnimais() {
         return total_animais;
     }
-
-
-    }
     
     /*public void setEspecie(String especie) {
         this.especie = especie;

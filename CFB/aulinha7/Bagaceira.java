@@ -7,9 +7,9 @@ public class Bagaceira{
         final int[] lista = {23,45,3,2,6};
         int[] luser = new int[lista.length];
 
-        Arreys.sort(lista);
+        Arrays.sort(lista);
 
-        while(!Arreys.equals(lista, luser)){
+        while(!Arrays.equals(lista, luser)){
             for(int i = 0; i < luser.length; i++){
                 luser[i] = Input.entradaInt("Digite um numero: ");
             
